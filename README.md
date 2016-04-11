@@ -9,7 +9,7 @@ Provide a simple blackbox mean of estimating algorithms/loading/function time to
 
 ### First run setup
 ```
-var Lte = require("../lib/index.js");
+var Lte = require("load-time-estimate");
 var lte = new Lte("estimate");
 
 /*
@@ -21,7 +21,7 @@ var settings = lte.produceSettings();
 
 ###Production setup
 ```
-var Lte = require("../lib/index.js");
+var Lte = require("load-time-estimate");
 var lte = new Lte(settings);
 ```
 
