@@ -1,6 +1,6 @@
 {
   "name": "load-time-estimate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide a simple blackbox mean of estimating algorithms / loading / function time to completion",
   "main": "./lib/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "loop",
     "function"
   ],
-  "author": "sami-sweng",
+  "author": "dirtv",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sami-sweng/load-time-estimate/issues"
