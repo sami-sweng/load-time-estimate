@@ -1,0 +1,29 @@
+{
+  "name": "load-time-estimate",
+  "version": "1.0.0",
+  "description": "Provide a simple blackbox mean of estimating algorithms / loading / function time to completion",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sami-sweng/load-time-estimate.git"
+  },
+  "keywords": [
+    "estimate",
+    "load",
+    "loading",
+    "time",
+    "completion",
+    "algorithm",
+    "loop",
+    "function"
+  ],
+  "author": "sami-sweng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sami-sweng/load-time-estimate/issues"
+  },
+  "homepage": "https://github.com/sami-sweng/load-time-estimate#readme"
+}
