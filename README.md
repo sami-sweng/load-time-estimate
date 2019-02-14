@@ -17,6 +17,7 @@ var lte = new Lte("estimate");
 */
 
 var settings = lte.produceSettings();
+// save settings
 ```
 
 ### Production setup
