@@ -1,6 +1,6 @@
 {
   "name": "load-time-estimate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Provide a simple blackbox mean of estimating algorithms / loading / function time to completion",
   "main": "./lib/index.js",
   "scripts": {
