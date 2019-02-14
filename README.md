@@ -1,14 +1,14 @@
 # load-time-estimate
 Provide a simple blackbox mean of estimating algorithms/loading/function time to completion
 
-##Setup
+## Setup
 
-###Install
+### Install
 
 `npm install load-time-estimate`
 
 ### First run setup
-```
+```js
 var Lte = require("load-time-estimate");
 var lte = new Lte("estimate");
 
@@ -19,19 +19,19 @@ var lte = new Lte("estimate");
 var settings = lte.produceSettings();
 ```
 
-###Production setup
-```
+### Production setup
+```js
 var Lte = require("load-time-estimate");
 var lte = new Lte(settings);
 ```
 
-##Usage
+## Usage
 
-###Add fixed step
+### Add fixed step
 `lte.addStep();`
 
-###Add variable number of iteration loop
-```
+### Add variable number of iteration loop
+```js
 lte.addLoop(numberOfIterations);
 
 for (var i = 0; i < numberOfIterations; i++) {
@@ -42,16 +42,16 @@ for (var i = 0; i < numberOfIterations; i++) {
 }
 ```
 
-##Get estimates
+## Get estimates
 
-###Get human readble estimate
+### Get human readble estimate
 
 `lte.getRemainingTimeEstimate()`
 
-###Get ms estimate
+### Get ms estimate
 
 `lte.getRemainingMsEstimate()`
 
-###Get pc (0-1) estimate
+### Get pc (0-1) estimate
 
 `lte.getPcEstimate()`
